@@ -1,0 +1,15 @@
+* Important Information
+
+Example of a image embed.
+#+BEGIN_EXAMPLE
+#+CAPTION: This is the caption for the next figure link (or table)
+#+NAME:   fig:SED-HR4049
+[[../drawings/out/example.svg]]
+#+END_EXAMPLE
+
+It is reccomended to use svg embeds as it allows for zooming in as well as easily exporting to html or a pdf without having to rerender it.
+
+To compile a .org to a .pdf:
+#+BEGIN_SRC sh
+$ library/ > pandoc -s ./src/template.org -o ./tex/template.tex && pdflatex -interaction=batchmode -output-directory="./out/" ./tex/template.tex
+#+END_SRC

@@ -1,0 +1,9 @@
+#+TITLE:     Template Book
+#+SUBTITLE:  A template file to help you get started with a book.
+#+AUTHOR:    Wylited
+#+EMAIL:     wylited@gmail.com
+#+DATE:      31-10-2022
+#+DESCRIPTION: Templating is the process of using placeholders in a text file that are replaced with user-supplied values when a template is processed to produce final output.
+#+KEYWORDS:  template
+#+LANGUAGE:  en
+#+LATEX_HEADER_EXTRA: \input{./public/preamble.tex}

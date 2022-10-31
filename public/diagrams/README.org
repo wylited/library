@@ -1,0 +1,21 @@
+* Diagrams
+
+Creating latex diagrams, especially with the tikz library, is extremely useful for embedding into a notebook as a diagram.
+
+Diagrams are publically as stored here, allowing for access from any notebook.
+
+For each diagram, it is generally reccomended to use the same file name and compile it to SVG.
+To compile a .tex file to .svg run:
+
+#+BEGIN_SRC sh
+pandoc -s input.tex o output.svg
+#+END_SRC
+_requires pandoc_
+
+** Drawing List
+
+- Template
+  - An example template file for generating a drawing. Includes the command for compiling to an svg.
+
+- Economics Market Graph 
+  - An diagram of a graph representing the demand and supplies price and quantity of a good in a market as well as the equilibrium point.
