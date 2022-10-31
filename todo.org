@@ -50,3 +50,4 @@ This could be achieved with a github action going through todo.org and adding / 
 ** TODO How to handle bibliographies <f> @wylited
 
 ** TODO Web access to the notebooks <f><c> @wylited
+Compile notebooks to html, including svg drawings.

@@ -24,4 +24,4 @@ _This requires you to have pandoc and a latex distribution installed!_
 It may also create orhter files like .aux or .log or .bibtex, these can be deleted after compilation.
 
 ** License
-This project is licensed under the LGPL License. See the LICENSE.txt file for more information.
+This project is licensed under the LGPL License. See the [[https://github.com/wylited/library/blob/master/LICENSE.txt][LICENSE.txt]] file for more information.
