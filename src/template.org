@@ -7,3 +7,31 @@
 #+KEYWORDS:  template
 #+LANGUAGE:  en
 #+LATEX_HEADER_EXTRA: \input{./public/preamble.tex}
+
+$$\tableofcontents$$
+
+* Introduction
+
+This is the introduction of the book.
+
+* Chapter 1
+
+This is the first chapter of the book.
+
+* Chapter 2
+
+This is the second chapter of the book.
+
+* Glossary
+
+This is the glossary of the book.
+
+* Resources 
+
+** Books
+
+Some random books that are useful.
+
+** Web articles
+
+web articles that are useful.
