@@ -1,0 +1,9 @@
+* Contributing
+I encourage contributing, whether it just be if you find an issue with the work produced or want to add your own work to the project. I will be happy to accept any contributions. If you want to contribute, please fork the project and submit a pull request. I will review the pull request and merge it if it is acceptable. If you have any questions, please feel free to contact me.
+
+I still have yet to write out guidelines for pull requests.
+
+Contributing to a book/work will add you to the author tag on the file/s modifed. You may use your real name or a preffered alias. 
+
+* License
+This project is licensed under the LGPL License. See the LICENSE.txt file for more information.

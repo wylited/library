@@ -1,0 +1,52 @@
+* ToDo
+
+** Help
+
+Any headline becomes a TODO item when it starts with the word ‘TODO’, for example:
+#+BEGIN_EXAMPLE
+** TODO Write a new chapter
+#+END_EXAMPLE
+
+You can assign a tag to a TODO item by adding a <> enclosed tag at the end, for example:
+#+BEGIN_EXAMPLE
+** TODO Check new chapters grammar and spelling <g><s>
+#+END_EXAMPLE
+
+You can also assign people to a TODO item by mentioning a @<name> at the end, for example:
+#+BEGIN_EXAMPLE
+** TODO code an automatic shell script to compile `src/` into `work/` and `out/` <c> @wylited
+#+END_EXAMPLE
+
+You can link a github issue, pull request and commit as such:
+#+BEGIN_EXAMPLE
+[[issue:1][first bug, ;~;]]
+[[pull:1][first pr, woo!]]
+[[commit:1][first commit, yay!]]
+#+END_EXAMPLE
+(i dont actually know if the last two work.)
+
+** Information
+
+*** Tags
+- g: grammar
+- s: spelling
+- c: coding
+- t: testing
+- o: outlining
+- p: proofreading
+- r: reviewing
+- e: editing
+- f: feature
+
+** TODO Allow github to automatically add ToDo issues to Github Issues <f><c> @wylited
+- [ ] Automatically add tags and assignees to github issues.
+
+This could be achieved with a github action going through todo.org and adding / modifying issues to github.
+
+** TODO How to handle completed issues <f><c> @wylited
+- [ ] Syntax for completed issues
+- [ ] Where to store them?
+
+** TODO How to handle bibliographies <f> @wylited
+
+** TODO Web access to the notebooks <f><c> @wylited

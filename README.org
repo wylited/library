@@ -1,0 +1,27 @@
+* Wynotebook
+A collection of notebooks/books on various subjects that I use throughout my academic journey.
+
+** What
+These notebooks are written in [[https://orgmode.org/][org-mode]] to allow for the power of [[https://orgmode.org/manual/Embedded-LaTeX.html][embedded]] [[https://www.latex-project.org/][latex]].
+
+List of notebooks and description:
+- Nothing yet... (I'm still working on it) :sob:
+
+This project is not mature yet, I would not suggest it for major use. I will update this README as I progress.
+
+** Why
+Because I don't like thick, hard-to-read textbooks and I like to take notes on my own. This also allows it to be easy for others to access.
+
+** Compiling
+Currently there is no shell script or program provided to compile the source work, it is recommended to use the files in `out/` or provided through github releases. However if you do need to compile it, I generally use this command to compile the files.
+
+#+BEGIN_SRC sh
+pandoc -s file.org -o file.tex && pdflatex -interaction=batchmode file.tex
+#+END_SRC
+
+_This requires you to have pandoc and a latex distribution installed!_ 
+
+It may also create orhter files like .aux or .log or .bibtex, these can be deleted after compilation.
+
+** License
+This project is licensed under the LGPL License. See the LICENSE.txt file for more information.
